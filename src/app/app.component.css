@@ -13,20 +13,18 @@ mat-card
     box-shadow: 5px 5px 50px rgba(219, 221, 250, 0.527);    
 }
 input{
-    
-    
     margin: 4%;
-    height: 20%;
+    /* height: ; */
     border-radius: 10px;
     box-shadow: -2px -2px inset;
     margin-bottom: 1%;
     margin-top: 4%;
     text-align: right;
     font-family: 'Digital-7';
-    font-size: 350%;
+    font-size: 390%;
     padding-right: 3%;
     vertical-align: bottom;
-   
+    padding-top: 16%;
 }
 span{
     text-align: center;

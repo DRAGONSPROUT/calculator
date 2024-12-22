@@ -1,5 +1,5 @@
 <mat-card>
-  <input  value="{{nums}}" id=input disabled>
+  <input id=input disabled maxlength="10" value={{nums}} [maxLength]="13">
   <span>C A S I O</span>
   <mat-divider></mat-divider>
   <div class="container">
@@ -12,27 +12,27 @@
     </div>
 
     <div class="item">
-      <button id=memory (click)="memory()">MR</button>
-      <button id="7" class="number" (click)="numb(7)">7</button>
-      <button id =4 class="number" (click)="numb(4)">4</button>
-      <button id =1 class="number" value="1" (click)="numb(1)">1</button>
-      <button id =0  (click)="numb(0)" class="number">0</button>
+      <button id=memory (click)="memory()" disabled>MR</button>
+      <button id="7" class="number" (click)="numb(7)" disabled>7</button>
+      <button id =4 class="number" (click)="numb(4)" disabled>4</button>
+      <button id =1 class="number" value="1" (click)="numb(1)" disabled>1</button>
+      <button id =0  (click)="numb(0)" class="number" disabled>0</button>
     </div>
 
     <div class="item">
       <button id=memory (click)="mems()">M-</button>
-      <button class="number" id =8  (click)="numb(8)">8</button>
-      <button class="number" id =5  (click)="numb(5)">5</button>
-      <button class="number" id =2  (click)="numb(2)">2</button>
-      <button class="number" id =11  (click)="numb(11)">.</button>
+      <button class="number" id =8  (click)="numb(8)" disabled>8</button>
+      <button class="number" id =5  (click)="numb(5)" disabled>5</button>
+      <button class="number" id =2  (click)="numb(2)" disabled>2</button>
+      <button class="number" id =11  (click)="numb(11)" disabled>.</button>
     </div>
 
     <div class="item">
-      <button id=memory (click)="memp()">M+</button>
-      <button class="number"id =9  (click)="numb(9)">9</button>
-      <button class="number" id =6  (click)="numb(6)">6</button>
-      <button class="number" id =3  (click)="numb(3)">3</button>
-      <button id="equals" (click)="equals()">=</button>
+      <button id=memory (click)="memp()" disabled>M+</button>
+      <button class="number"id =9  (click)="numb(9)" disabled>9</button>
+      <button class="number" id =6  (click)="numb(6)" disabled>6</button>
+      <button class="number" id =3  (click)="numb(3)" disabled>3</button>
+      <button id="equals" (click)="equals()" disabled>=</button>
   </div>
 
   <div class="item">
